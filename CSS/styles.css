@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+
+hr {
+  border-color: #ffffff;
+}
+
+h1 {
+  padding: 8px 20px;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+}
+
+h1.body {
+  text-align: center;
+  cursor: default;
+  font-size: 34px;
+}
+h2 {
+  color: #3a3a3a;
+}
+
+h3 {
+  text-align: center;
+  color: #777;
+}
+
+div.buttonNav {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+div.buttonNav button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  float: right;
+}
+
+/* Our Package */
+div.Package {
+  background-color: #ececec;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+h1.Package {
+  color: #3a3a3a;
+  font-size: 22pt;
+}
+
+/* Footer */
+p {
+  font-size: 18px;
+  color: #666;
+}
+
+footer {
+  background-color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  color: #777;
+  border-top: 1px;
+}
+
+.footer-content a {
+  color: #777;
+  cursor: pointer;
+}
+
+.footer-content a:hover {
+  color: #9c9c9c;
+  display: inline-block;
+}
+
+/* Media Mobile Phone */
+@media (max-width: 450px) {
+  div.buttonNav {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
